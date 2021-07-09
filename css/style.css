@@ -7,8 +7,7 @@
 /* INSERIMENTO FONT VALIDO PER TUTTA LA PAGINA */
 body{
     font-family: 'Open Sans', sans-serif;
-    max-width: 1350px;
-    min-width: 1350px;
+    width: 1350px;
     margin: 0 auto;
 }
 
@@ -21,7 +20,10 @@ ul>li{
     font-weight: 400;
     vertical-align: middle;
 }
-
+p{
+    font-weight: 400;
+    font-size: 12px;
+}
 .heading{
     padding: 20px;
     height: 100px;
@@ -47,14 +49,11 @@ ul>li{
     height: 600px;
     background-color: lightblue;
 }
-.jumbotron p{
-    font-weight: 400;
-    font-size: 12px;
-}
+
 .main-jumbotron{
     width: 80%;
     margin: 0 auto;
-    padding: 70px 0;
+    padding-top: 70px;
 }
 .main-jumbotron .l-side-jumbo{
     width: 30%;
@@ -92,6 +91,90 @@ ul>li{
     content: '';
     display: table;
     clear: both;
+}
+.main-container{
+
+    width: 70%;
+    margin: 80px auto;
+}
+
+.pay{
+    padding-top: 70px;
+}
+
+.radio-btn{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.radio-btn p{
+    margin-right: 10px;
+    display: inline-block;
+}
+.column-pay{
+    width: 30%;
+    
+}
+.float-pay .column-pay:nth-child(2){
+    margin: 0 5%;
+}
+
+.headline-pay{
+    padding: 10px 0;
+    text-align: center;
+    border: 1px solid rgb(196, 196, 196);
+}
+.pay-container{
+    padding: 40px 30px;
+    border: 1px solid rgb(196, 196, 196);
+    border-top: none;
+    height: 1000px;
+}
+.pay h2{
+    font-size: 35px;
+}
+.pay-container h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.price-bold{
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.grey{
+    color: grey;
+}
+.price{
+    margin-bottom: 50px;
+}
+.main-pay p{
+    margin-bottom: 25px;
+}
+.fa-pencil-alt{
+    height: 20px;
+    margin-right: 2px;
+   
+}
+.test-btn{
+    padding: 10px 31px;
+    margin: 20px 0;
+}
+.main-pay p>a{
+    color:rgb(59, 59, 255); 
+}
+.bar{
+    color: rgb(196, 196, 196);
+    
+}
+
+.fa-check{
+    color:rgb(59, 59, 255);
+    height: 20px;
+    margin-right: 2px;
+}
+.main-pay h4{
+    margin-bottom: 20px;
 }
 #title{
     font-weight: 700;
