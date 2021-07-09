@@ -1,0 +1,101 @@
+/* RESET */
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+/* INSERIMENTO FONT VALIDO PER TUTTA LA PAGINA */
+body{
+    font-family: 'Open Sans', sans-serif;
+    max-width: 1350px;
+    min-width: 1350px;
+    margin: 0 auto;
+}
+
+ul{
+    list-style-type: none;
+    
+}
+ul>li{
+    display: inline-block;
+    font-weight: 400;
+    vertical-align: middle;
+}
+
+.heading{
+    padding: 20px;
+    height: 100px;
+}
+
+.heading ul>li>a{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    
+}
+.heading img{
+    margin-right: 20px;
+    vertical-align: middle;
+}
+.heading button{
+    margin-left: 20px;
+    width: 65px;
+    height: 30px;
+    vertical-align: middle;
+}
+.jumbotron{
+    height: 600px;
+    background-color: lightblue;
+}
+.jumbotron p{
+    font-weight: 400;
+    font-size: 12px;
+}
+.main-jumbotron{
+    width: 80%;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+.main-jumbotron .l-side-jumbo{
+    width: 30%;
+
+}
+.main-jumbotron .r-side-jumbo{
+    width: 70%;
+}
+.main-jumbotron img{
+    width: 700px;
+}
+.l-side-jumbo p{
+    margin-bottom: 20px;
+}
+.l-side-jumbo button{
+    padding: 7px 20px;
+    margin-bottom: 10px;
+}
+.blue-btn{
+    background-color: rgb(59, 59, 255);
+    color: white;
+    border: none;
+}
+.fa-arrow-down{
+    font-size: 30px;
+}
+/* FLOAT */
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+#title{
+    font-weight: 700;
+    font-size: 60px;
+    margin-bottom: 30px;
+    
+}
