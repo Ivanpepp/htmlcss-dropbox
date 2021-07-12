@@ -41,6 +41,9 @@ footer {
   color: white;
   height: 500px;
 }
+button {
+  border: none;
+}
 /* NAV HEADER */
 .heading {
   padding: 20px;
@@ -127,12 +130,55 @@ footer {
 }
 
 .radio-btn {
-  padding-top: 30px;
-  padding-bottom: 20px;
-}
-.radio-btn p {
-  margin-right: 10px;
   display: inline-block;
+  position: relative;
+  padding-left: 35px;
+  margin: 20px 20px 20px 0;
+  cursor: pointer;
+  font-size: 22px;
+}
+/* nasconto il radiobtn di defult */
+.radio-btn input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+/* Adesso creo effettivamente il radiobtn */
+.radio-new {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+/* metto il background + scuro quando metto il mouse sul pallino */
+.radio-btn:hover input ~ .radio-new {
+  background-color: #ccc;
+}
+/* quando e cliccato metto il bg blu */
+.radio-btn input:checked ~ .radio-new {
+  background-color: #2196f3;
+}
+/* creo il pallino quando non e` cliccato */
+.radio-new::after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+/* mostro il pallino quando clicco */
+.radio-btn input:checked ~ .radio-new::after {
+  display: block;
+}
+/* creo los tile del pallino */
+.radio-btn .radio-new::after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
 }
 .column-pay {
   width: 30%;
