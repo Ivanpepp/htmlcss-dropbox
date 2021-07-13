@@ -1,0 +1,52 @@
+/* HEADING*/
+.heading ul li {
+  display: inline-block;
+  padding: 0 20px;
+}
+.heading ul > li > a {
+  text-decoration: none;
+  color: black;
+}
+.heading .dropdown .dropdown-content > a {
+  color: gray;
+  display: block;
+  font-size: 13px;
+  text-decoration: none;
+  margin: 30px 20px;
+}
+i {
+  margin-left: 10px;
+}
+/* Menu a tendina */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  left: 0;
+  background-color: white;
+  min-width: 140px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border: 1px solid rgb(224, 223, 223);
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown .dropdown-content > a:hover {
+  color: black;
+  text-decoration: underline;
+}
+/* FLOAT */
+.fr {
+  float: right;
+}
+.fl {
+  float: left;
+}
+#decoration {
+  text-decoration: underline;
+}
