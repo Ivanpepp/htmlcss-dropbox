@@ -1,4 +1,21 @@
+/* RESET */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1550px;
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 0 auto;
+}
 /* HEADING*/
+.heading {
+  padding: 20px 10px;
+  height: 70px;
+  border-bottom: 1px solid rgb(201, 201, 201);
+}
 .heading ul li {
   display: inline-block;
   padding: 0 20px;
@@ -16,6 +33,21 @@
 }
 i {
   margin-left: 10px;
+}
+.heading button {
+  background-color: white;
+  padding: 8px 16px;
+  border: 1px solid rgb(201, 201, 201);
+}
+
+.main-width {
+  width: 60%;
+  margin: 0 auto;
+}
+.under-heading {
+  color: gray;
+  font-size: 13px;
+  padding: 10px 0;
 }
 /* Menu a tendina */
 .dropdown {
@@ -39,6 +71,63 @@ i {
 .dropdown .dropdown-content > a:hover {
   color: black;
   text-decoration: underline;
+}
+/* JUMBOTRON */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.jumbotron {
+  background-color: rgb(255, 197, 146);
+  height: 500px;
+  padding: 50px 0;
+}
+
+.jumbotron .fr {
+  width: 50%;
+  padding-left: 100px;
+}
+.jumbotron .fl {
+  padding-top: 100px;
+  width: 50%;
+}
+.jumbotron h1 {
+  color: green;
+  font-size: 45px;
+}
+.jumbotron p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.piani {
+  border: none;
+  padding: 10px 40px;
+}
+/* MAIN CONTENT */
+.f-text.fr {
+  width: 35%;
+  margin-left: 15%;
+}
+.f-image.fl {
+  width: 50%;
+}
+.f-text.fl {
+  width: 35%;
+  margin-right: 15%;
+}
+.f-image.fr {
+  width: 50%;
+}
+.f-text p {
+  margin: 20px 0;
+  line-height: 25px;
+}
+.main-content .f-image:first-child {
+  padding-top: 70px;
+}
+.main-content {
+  padding: 100px 0;
 }
 /* FLOAT */
 .fr {
