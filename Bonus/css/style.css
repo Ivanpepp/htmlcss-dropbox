@@ -123,11 +123,75 @@ i {
   margin: 20px 0;
   line-height: 25px;
 }
-.main-content .f-image:first-child {
+.row1 .f-image {
   padding-top: 70px;
 }
 .main-content {
-  padding: 100px 0;
+  padding: 100px 0 0 0;
+}
+.row1,
+.row2,
+.row3,
+.row4 {
+  margin-bottom: 80px;
+}
+.row2 .fr {
+  padding-left: 70px;
+}
+.row2 .fl {
+  padding-top: 40px;
+}
+.row3 .fl {
+  padding-bottom: 40px;
+}
+.row4 .fl {
+  padding-top: 70px;
+}
+.row4 .fr {
+  padding-left: 40px;
+}
+/* SEZIONE FAQ */
+.faq h2 {
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+.ask {
+  padding: 30px 20px 30px 0;
+  border-top: 1px solid rgb(198, 198, 198);
+  border-bottom: 1px solid rgb(198, 198, 198);
+  cursor: pointer;
+}
+.faq-hide {
+  display: none;
+  color: gray;
+  padding-top: 30px;
+}
+.faq-hide a {
+  color: rgb(192, 190, 190);
+}
+.ask:hover .faq-hide {
+  display: block;
+}
+/* FUNZIONI */
+.funzioni {
+  margin: 80px 0;
+}
+.funzioni .fl {
+  width: 20%;
+}
+
+.f-funzioni .fl.l-side {
+  margin-left: 7%;
+  margin-right: 2%;
+}
+.f-funzioni .fl.middle {
+  margin-right: 2%;
+}
+.funzioni .fl.r-side {
+  margin-right: 7%;
+}
+.funzioni h2 {
+  margin-bottom: 30px;
 }
 /* FLOAT */
 .fr {
