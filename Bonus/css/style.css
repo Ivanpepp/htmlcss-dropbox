@@ -10,6 +10,11 @@ body {
   font-family: "Roboto Condensed", sans-serif;
   margin: 0 auto;
 }
+footer {
+  background-color: black;
+  color: white;
+  height: 550px;
+}
 /* HEADING*/
 .heading {
   padding: 20px 10px;
@@ -197,6 +202,66 @@ i {
 }
 .funzioni h2 {
   margin-bottom: 30px;
+}
+.funzioni a,
+.funzioni p {
+  color: gray;
+  margin-bottom: 30px;
+}
+.funzioni a:hover {
+  text-decoration: none;
+}
+.funzioni h4 {
+  margin: 20px 0;
+}
+/* FOOT MAIN */
+.foot-main {
+  padding-top: 140px;
+  background-color: rgb(255, 197, 146);
+  height: 300px;
+}
+.foot-main h2 {
+  color: green;
+  font-size: 35px;
+  width: 45%;
+}
+/* FOOTER */
+.foot {
+  padding-top: 80px;
+}
+.foot h5 {
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+.foot a {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+}
+.foot ul {
+  list-style-type: none;
+}
+.foot ul li {
+  margin-bottom: 15px;
+}
+.foot a:hover {
+  text-decoration: underline;
+}
+.foot .fl {
+  width: 20%;
+  margin-bottom: 40px;
+}
+.foot .fl i:first-child {
+  margin-left: 0;
+}
+.line {
+  height: 1px;
+  margin: 50px 0;
+  background-color: white;
+  width: 90px;
+}
+.foot .fl .fa-angle-down {
+  padding-left: 15px;
 }
 /* FLOAT */
 .fr {
